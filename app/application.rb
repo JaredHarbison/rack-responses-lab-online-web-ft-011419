@@ -6,5 +6,5 @@ class Application
     resp.write "#{Time.now}"
     resp.finish
   end
-  
+
 end
