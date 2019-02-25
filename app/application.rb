@@ -5,6 +5,7 @@ class Application
     resp = Rack::Response.new
     t = Time.now
     resp.write "#{t}\n"
+  end 
 #    if
 #    else
 #    end
